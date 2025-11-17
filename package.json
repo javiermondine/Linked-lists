@@ -1,0 +1,11 @@
+{
+  "name": "linked-lists",
+  "version": "1.0.0",
+  "description": "Linked list exercise for The Odin Project",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "javiermondine",
+  "license": "MIT"
+}
