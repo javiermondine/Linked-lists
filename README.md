@@ -1,26 +1,24 @@
-# Linked-lists
+# Linked Lists
 
-Implementación en JavaScript de una lista enlazada simple usando las clases `Node` y `LinkedList`.
+A singly linked list implementation in JavaScript.
 
-Métodos implementados:
+## Methods
 
-- append(value)
-- prepend(value)
-- size()
-- head()
-- tail()
-- at(index)
-- pop()
-- contains(value)
-- find(value)
-- toString()
-- insertAt(value, index)
-- removeAt(index)
+- `append(value)` - Add value to end
+- `prepend(value)` - Add value to beginning
+- `size()` - Get number of nodes
+- `head()` - Get first node
+- `tail()` - Get last node
+- `at(index)` - Get node at index
+- `pop()` - Remove last node
+- `contains(value)` - Check if value exists
+- `find(value)` - Find node with value
+- `toString()` - String representation
+- `insertAt(value, index)` - Insert at index
+- `removeAt(index)` - Remove at index
 
-Prueba rápida:
+## Usage
 
 ```bash
 node main.js
 ```
-
-Esto imprimirá una serie de mensajes que demuestran el correcto funcionamiento de la lista enlazada.
